@@ -1,4 +1,5 @@
 **New Zealand Businesses**
+
 New Zealand Businesses is a customer-facing web application designed to help users find trades and services across New Zealand. The platform focuses on making it easy for customers to search for businesses, explore available services, and submit job requests in a simple and user-friendly way.
 
 This system works together with an existing backend system called Trady Assist, which is primarily used by trades and businesses. While customers interact with the New Zealand Businesses website, all business-related data and operations are managed through Trady Assist.
