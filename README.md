@@ -1,3 +1,27 @@
+**New Zealand Businesses**
+New Zealand Businesses is a customer-facing web application designed to help users find trades and services across New Zealand. The platform focuses on making it easy for customers to search for businesses, explore available services, and submit job requests in a simple and user-friendly way.
+
+This system works together with an existing backend system called Trady Assist, which is primarily used by trades and businesses. While customers interact with the New Zealand Businesses website, all business-related data and operations are managed through Trady Assist.
+
+The connection between the two systems is handled through APIs. The tradies’ profiles and business information displayed on the New Zealand Businesses website are fetched from the Trady Assist system. This ensures that the data shown to customers is consistent and up to date.
+
+When a customer submits a job request through the New Zealand Businesses platform, it is captured as a lead and sent to Trady Assist using APIs. Trades and businesses can then access and manage these leads within the existing system.
+
+In addition to this, the platform also allows businesses to register their business, helping to expand the network of available trades and services.
+
+The main objective of this project is to create a smooth and efficient connection between customers and businesses by using API integration to exchange data, generate leads, and support business growth.
+
+**Technology Stack:**
+
+Backend Framework: Laravel
+
+Frontend: Blade (Laravel templating), HTML, CSS
+
+Architecture: MVC (Model-View-Controller)
+
+Development Environment: VS Code
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
