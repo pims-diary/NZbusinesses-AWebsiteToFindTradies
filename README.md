@@ -1,4 +1,4 @@
-**New Zealand Businesses**
+# New Zealand Businesses
 
 New Zealand Businesses is a customer-facing web application designed to help users find trades and services across New Zealand. The platform focuses on making it easy for customers to search for businesses, explore available services, and submit job requests in a simple and user-friendly way.
 
