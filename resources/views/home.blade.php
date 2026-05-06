@@ -23,7 +23,6 @@
             </div>
 
             <div class="navbar-actions">
-                <a href="{{ route('job.details') }}" class="nav-btn quote-btn">Get Quotes</a>
                 <a href="#" class="nav-btn business-btn">List Your Business</a>
             </div>
 
@@ -47,12 +46,28 @@
             <p>Search reliable tradies and local service providers near you.</p>
 
             <div class="hero-search-box">
-                <input type="text" placeholder="What service do you need?">
-               <a href="{{ route('job.details') }}" class="nav-btn quote-btn">Get Quotes</a>
-            </div>
+
+    <input type="text" placeholder="What service do you need?">
+
+   <div class="location-field">
+        <span class="location-icon">📍</span>
+
+        <input type="text" placeholder="Location">
+    </div>
+
+    <button class="hero-search-btn">
+    Search
+</button>
+
+</div>
         </div>
     </section>
+
     <!-- Hero Section End -->
+
+
+
+</div>
 
 
     <!-- Trust Section Start -->
@@ -109,62 +124,62 @@
     <section class="category-section">
         <div class="section-header">
             <span class="section-badge">Popular Services</span>
-            <h2>Explore tradie categories</h2>
-            <p>Find the right professional for repairs, renovations, maintenance, and local services across New Zealand.</p>
+            <h2>Explore Services Across Industries</h2>
+            <p>Explore services across a range of industries and connect with trusted businesses across New Zealand. Choose a category to get started.</p>
         </div>
 
         <div class="category-grid">
 
             <div class="category-card">
-                <img src="{{ asset('images/categories/electrician.jpg') }}" alt="Electrician">
-                <div class="category-content">
-                    <h3>Electricians</h3>
-                    <p>Wiring, lighting, switchboards, repairs, and electrical installations.</p>
-                    <a href="#">View category →</a>
-                </div>
-            </div>
-
-            <div class="category-card">
-                <img src="{{ asset('images/categories/plumber.jpg') }}" alt="Plumber">
-                <div class="category-content">
-                    <h3>Plumbers</h3>
-                    <p>Leaks, drainage, hot water systems, bathrooms, and plumbing jobs.</p>
-                    <a href="#">View category →</a>
-                </div>
-            </div>
-
-            <div class="category-card">
                 <img src="{{ asset('images/categories/builder.jpg') }}" alt="Builder">
                 <div class="category-content">
-                    <h3>Builders</h3>
-                    <p>Renovations, home repairs, extensions, decks, and building work.</p>
+                    <h3>Home Services</h3>
+                    <p>Find trusted professionals for repairs, maintenance, and home improvement projects.</p>
                     <a href="#">View category →</a>
                 </div>
             </div>
 
             <div class="category-card">
-                <img src="{{ asset('images/categories/painter.jpg') }}" alt="Painter">
+                <img src="{{ asset('images/categories/automative.jpg') }}" alt="Automative">
                 <div class="category-content">
-                    <h3>Painters</h3>
-                    <p>Interior painting, exterior painting, decorating, and finishing.</p>
+                    <h3>Automotive</h3>
+                    <p>Connect with experts for vehicle repairs, servicing, and maintenance needs.</p>
                     <a href="#">View category →</a>
                 </div>
             </div>
 
             <div class="category-card">
-                <img src="{{ asset('images/categories/carpenter.jpg') }}" alt="Carpenter">
+                <img src="{{ asset('images/categories/beautycare.jpg') }}" alt="Beauty Care">
                 <div class="category-content">
-                    <h3>Carpenters</h3>
-                    <p>Custom woodwork, repairs, framing, shelving, and installations.</p>
+                    <h3>Beauty & Personal Care</h3>
+                    <p>Discover salons and specialists for grooming, beauty, and self-care services.</p>
                     <a href="#">View category →</a>
                 </div>
             </div>
 
             <div class="category-card">
-                <img src="{{ asset('images/categories/cleaner.jpg') }}" alt="Cleaner">
+                <img src="{{ asset('images/categories/food&hospitality.jpg') }}" alt="Food & Hospitality">
                 <div class="category-content">
-                    <h3>Cleaners</h3>
-                    <p>Home cleaning, end-of-tenancy cleaning, offices, and deep cleans.</p>
+                    <h3>Food & Hospitality</h3>
+                    <p>Explore restaurants, cafés, and catering services for every occasion.</p>
+                    <a href="#">View category →</a>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <img src="{{ asset('images/categories/professionalservices.jpg') }}" alt="Professional Services">
+                <div class="category-content">
+                    <h3>Professional Services</h3>
+                    <p>Access qualified experts for legal, financial, and business-related services.</p>
+                    <a href="#">View category →</a>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <img src="{{ asset('images/categories/techservices.jpg') }}" alt="Tech Services">
+                <div class="category-content">
+                    <h3>Tech Services</h3>
+                    <p>Get support for digital solutions, including web development, repairs, and IT support.</p>
                     <a href="#">View category →</a>
                 </div>
             </div>
@@ -198,29 +213,37 @@
                     <div class="how-step">
                         <span class="step-number">01</span>
                         <div>
-                            <h4>Submit Your Job</h4>
-                            <p>Tell us what service you need and where the job is located.</p>
+                            <h4>Tell Us What You Need</h4>
+                            <p>Search for a service and location to get started.</p>
                         </div>
                     </div>
 
                     <div class="how-step">
                         <span class="step-number">02</span>
                         <div>
-                            <h4>Get Matched with Tradies</h4>
-                            <p>Your request is sent to suitable businesses through TradieFS.</p>
+                            <h4>Explore Your Options</h4>
+                            <p>Browse industries or view matching businesses near you.</p>
                         </div>
                     </div>
 
                     <div class="how-step">
                         <span class="step-number">03</span>
                         <div>
-                            <h4>Choose & Hire</h4>
-                            <p>Compare responses and choose the tradie that suits your job.</p>
+                            <h4>Choose the Right Business</h4>
+                            <p>Check profiles, services, and details before deciding.</p>
+                        </div>
+                    </div>
+
+                    <div class="how-step">
+                        <span class="step-number">04</span>
+                        <div>
+                            <h4>Get Quotes</h4>
+                            <p>Send your request and receive responses from businesses.</p>
                         </div>
                     </div>
                 </div>
 
-                <a href="{{ route('job.details') }}" class="nav-btn quote-btn">Get Quotes</a>
+                <a href="#" class="how-btn get-started-btn">Get Started</a>
             </div>
 
             <div class="how-card business-card">
