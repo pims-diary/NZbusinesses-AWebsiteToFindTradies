@@ -45,21 +45,30 @@
 
             <p>Search reliable tradies and local service providers near you.</p>
 
-            <div class="hero-search-box">
+            <form action="{{ route('businesses.index') }}" method="GET" class="hero-search-box">
 
-    <input type="text" placeholder="What service do you need?">
+    <input 
+        type="text" 
+        name="service"
+        placeholder="What service do you need?"
+        required
+    >
 
-   <div class="location-field">
+    <div class="location-field">
         <span class="location-icon">📍</span>
 
-        <input type="text" placeholder="Location">
+        <input 
+            type="text"
+            name="location"
+            placeholder="Location"
+        >
     </div>
 
-    <button class="hero-search-btn">
-    Search
-</button>
+    <button type="submit" class="hero-search-btn">
+        Search
+    </button>
 
-</div>
+</form>
         </div>
     </section>
 

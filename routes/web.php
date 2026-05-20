@@ -19,4 +19,8 @@ Route::get('/review-submit', function () {
 
 
 
+Route::get('/businesses', function () {
+    return view('businesses.index');
+})->name('businesses.index');
+
 
