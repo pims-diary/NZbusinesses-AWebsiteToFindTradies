@@ -187,7 +187,7 @@
             <div class="category-card">
                 <img src="{{ asset('images/categories/techservices.jpg') }}" alt="Tech Services">
                 <div class="category-content">
-                    <h3>Tech Services</h3>
+                    <h3>IT & Technology</h3>
                     <p>Get support for digital solutions, including web development, repairs, and IT support.</p>
                     <a href="#">View category →</a>
                 </div>
