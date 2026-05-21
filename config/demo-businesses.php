@@ -1,0 +1,58 @@
+<?php
+
+return [
+    [
+        'name' => 'Auckland Plumbing Experts',
+        'industry' => 'Home Services',
+        'category' => 'Plumbing',
+        'location' => 'Auckland',
+        'description' => 'Reliable plumbing services for leaks, drainage, bathrooms, and repairs.',
+        'phone' => '021 456 789',
+        'email' => 'plumbing@example.com',
+    ],
+    [
+        'name' => 'Kiwi Electrical Solutions',
+        'industry' => 'Home Services',
+        'category' => 'Electrical',
+        'location' => 'Wellington',
+        'description' => 'Residential and commercial electrical repairs, wiring, and installations.',
+        'phone' => '022 333 444',
+        'email' => 'electrical@example.com',
+    ],
+    [
+        'name' => 'North Shore Builders',
+        'industry' => 'Construction',
+        'category' => 'Building',
+        'location' => 'Auckland',
+        'description' => 'Home renovations, repairs, extensions, decks, and general building work.',
+        'phone' => '020 111 222',
+        'email' => 'builders@example.com',
+    ],
+    [
+        'name' => 'City Auto Garage',
+        'industry' => 'Automotive',
+        'category' => 'Car Repair',
+        'location' => 'Christchurch',
+        'description' => 'Vehicle servicing, diagnostics, brakes, tyres, and mechanical repairs.',
+        'phone' => '027 555 888',
+        'email' => 'auto@example.com',
+    ],
+    [
+        'name' => 'Glow Beauty Studio',
+        'industry' => 'Beauty & Personal Care',
+        'category' => 'Beauty Salon',
+        'location' => 'Hamilton',
+        'description' => 'Beauty treatments, skincare, grooming, and personal care services.',
+        'phone' => '021 999 777',
+        'email' => 'beauty@example.com',
+    ],
+    [
+        'name' => 'NZ Digital Studio',
+        'industry' => 'Tech Services',
+        'category' => 'Web Development',
+        'location' => 'Auckland',
+        'description' => 'Website design, web development, IT support, and digital solutions.',
+        'phone' => '022 888 666',
+        'email' => 'tech@example.com',
+    ],
+];
